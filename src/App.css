@@ -1,0 +1,70 @@
+.screen{
+  background-color: rgb(97, 97, 93);
+  max-width: 250px;
+  height: 70px;
+  margin: 2px;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+
+.App{
+  width: 100%;
+}
+
+.innerBox{
+  max-width: 250px;
+  justify-content: center;
+  align-self: center;
+  background-color: wheat;
+  border-radius: 20px;
+  border: 2px solid  white;
+} 
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.btn{
+  padding: 3px;
+  color: white;
+  background-color: rgb(3, 149, 202);
+  width: 40px;
+}
+
+.btno{
+  width: 60px;
+  color: white;
+  background-color: darkblue;
+}
+
+.btnAC{
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+  width: 70px;
+}
+
+.btnD{
+  background: white;
+  background-color: orange;
+  width: 70px;
+  border-radius: 50px;
+}
+
+.btnC{
+  background-color: rgb(51, 210, 23);
+  width: 130px;
+  color: white;
+  border-radius: 50px;
+  margin-left: 15px;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+}
